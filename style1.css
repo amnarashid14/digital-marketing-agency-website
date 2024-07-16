@@ -1,0 +1,597 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+    scroll-behavior: smooth;
+    /* color: #1d27eb; */
+
+}
+h2{
+text-transform: capitalize;
+}
+
+body {
+    background-color: rgb(173, 226, 254);
+    width: 98vw;
+    border: 2px solid black;
+    font-size: 62.5px;
+
+}
+
+.bg {
+    background-color: #f4f6f8;
+}
+
+/*******************************************<NAVBAR>********************************************************/
+.navbar {
+    width: 100%;
+}
+
+.nav-items a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-family: inherit;
+    color: rgb(57, 52, 52);
+}
+.nav-items a:hover{
+color: blue;
+background-color: rgb(247, 245, 223);
+}
+.toggle-button{
+display: none;
+font-size: 24px;
+color: blue;
+cursor: pointer;
+}
+
+.right-nav {
+    display: flex;
+    list-style-type: none;
+    width: 65%;
+    justify-content: space-evenly;
+}
+
+.left-nav {
+    list-style-type: none;
+}
+
+
+/*********************************************BANNER**********************************************/
+.banner {
+    width: 100%;
+    display: flex;
+    height: 20%;
+    margin-top: 5%;
+
+}
+
+.main1 {
+    width: 40%;
+    margin-left: 7%;
+}
+
+.h1 {
+    margin-left: 2%;
+    margin-top: 17%;
+    font-family: cursive;
+    /* text-decoration: underline; */
+    /* text-decoration-style: double; */
+    /* color: rgb(8, 154, 233); */
+    /* border: 2px solid blueviolet; */
+}
+
+.main1 p {
+    margin-top: 10%;
+}
+
+.main1 button {
+    height: 3em;
+    width: 12em;
+    margin-top: 4%;
+    border-radius: 25px;
+    background-color: rgb(131, 210, 252);
+
+}
+
+.main1 button a {
+    text-decoration: none;
+}
+
+
+.main2 {
+    width: 50%;
+}
+
+.main2 img {
+    width: 30em;
+    margin-left: 17%;
+    border-radius: 50px;
+}
+
+.wave-bg {
+    height: 8em;
+    width: 100%;
+}
+
+.wave-bg img {
+    width: 100%;
+    height: 100%;
+}
+
+/*************************************CAREER**********************************************/
+
+.work-text {
+    height: 10em;
+    margin: 7% 3% 7% 3%;
+}
+
+.work-text h1 {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.work-text p {
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.w {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.w-div {
+    height: 100%;
+    width: 20%;
+    border-radius: 15px;
+    /* padding: 2%; */
+    background-color: rgb(247, 245, 223);
+    color: rgb(55, 52, 52);
+    text-align: center;
+}
+.w-d{
+background-color: rgb(173, 226, 254);
+margin: 6%;
+padding: 2%;
+}
+
+/**********************ICONS************************/
+.w div i {
+    font-size: 3em;
+    margin: 0% 0% 7% 0%;
+    /* color: rgb(173, 226, 254); */
+}
+
+.w div p {
+    font-size: 0.7em;
+    margin-top: 9%;
+    background-color: rgb(173, 226, 254);
+}
+
+/****************************************TEAM FETURES********************************************/
+.info-1 {
+    width: 100%;
+    display: flex;
+    height: 30%;
+
+    margin-bottom: 5%;
+
+}
+
+.info-2 {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 4%;
+}
+
+.h1 {
+    margin-left: 2%;
+    margin-top: 7%;
+    margin-top: 10%;
+    font-family: cursive;
+}
+.info-2 .h1{
+color: blue;
+}
+.work-text h1{
+color: blue;
+}
+
+.info-2 p {
+    margin-top: 10%;
+    /* padding: 1%; */
+    /* background-color: rgb(173, 226, 254); */
+
+}
+
+.info-3 {
+    width: 35em;
+    height: 20em;
+    margin: 5% 2% 2% 2%;
+}
+
+.info-3 img {
+    width: 35em;
+    height: 23em;
+    border-radius: 20px;
+}
+
+.sub1 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.sub2 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.sub-box {
+    width: 55%;
+    text-align: justify;
+    padding: 2%;
+    margin: 0% 1% 1% 2%;
+    border: 2px solid rgba(57, 52, 52, 0.2);
+    border-radius: 6px;
+}
+
+.sub-box i {
+    padding: 1%;
+    color: #287a45;
+}
+
+
+/* RESULTS */
+.results {
+    display: flex;
+    width: 100%;
+    height: 50%;
+
+}
+
+.main-result {
+    width: 35em;
+    height: 20em;
+    margin: 9% 2% 2% 2%;
+}
+
+.main-result img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.results-main {
+    width: 35em;
+    height: 18em;
+    margin: 5% 2% 2% 8%;
+}
+h4 {
+    padding-top: 3%;
+}
+
+.sub-bar {
+    background-color: #e6e6e6;
+    height: 5%;
+    width: 100%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+
+}
+/* /////////////////////// WE BELIEVE IN LONG TERM PARTNERSHIPS /////////////////// */
+.info-4{
+    width: 100%;
+    display: flex;
+    height: 30%;
+    margin-top: 9%;
+    margin-bottom: 5%;
+}
+.info-5{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 4%;
+}
+.info-6{
+    width: 35em;
+    height: 20em;
+    margin: 12% 2% 2% 2%;
+}
+.info-6 img{
+    width: 35em;
+    height: 23em;
+    border-radius: 20px;
+}
+
+.info-5 p{
+    margin-top: 10%;
+}
+
+/****************************OUR SERVICES******************/
+.main-services {
+    display: flex;
+    background-color: rgb(247, 245, 223);
+}
+
+
+
+.ser {
+    height: 20%;
+    background-color: rgb(173, 226, 254);
+    width: 40%;
+    height: 30em;
+    padding: 2%;
+    text-align: center;
+    font-size: 1em;
+    border: 1px solid rgb(29, 29, 235);
+    border-style: dotted;
+    margin: 1%;
+}
+
+.logo {
+    height: 11em;
+    border-radius: 20%;
+    display: inline;
+    margin: 4%;
+
+}
+
+/*********************************ABOUT-SECTION*********************************************/
+
+.about-sec {
+    display: flex;
+    background-color: rgb(247, 245, 223);
+    width: 100%;
+    padding: 2%;
+
+}
+.right-about{
+    width: 30%;
+    padding: 1%;
+    margin-left: 2%;
+    background-color: rgb(173, 226, 254);
+
+}
+.left-about{
+width: 80%;
+margin-left: 4%;
+background-color: rgb(173, 226, 254);
+padding: 1%;
+
+}
+
+.about {
+    margin: 3%;
+    text-align: center;
+    color: blue;
+}
+
+.abt {
+    width: 100%;
+
+}
+/*******************************************PORTFOLIOO********************************/
+#portfolio{
+display: flex;
+width: 100%;
+justify-content: space-around;
+margin-top: 4%;
+}
+.card-body{
+background-color: rgb(247, 245, 223);
+
+}
+h4{
+    padding: 4%;
+background-color: rgb(173, 226, 254);
+}
+
+/**************************************************************FORM *****************************/
+.form {
+    margin: 4%;
+    margin-top: 7%;
+    display: flex;
+    height: 50%;
+    width: 90%;
+    padding: 1%;
+    background-color:rgb(247, 245, 223);
+}
+
+.form-box {
+    height: 30%;
+    background-color: rgb(173, 226, 254);
+    width: 50%;
+    padding: 2%;
+    margin: 0% 4% 4% 4%;
+}
+.form-box1{
+height: 30%;
+width: 70%;
+padding: 2%;
+}
+.submit{
+
+    height: 3em;
+    width: 12em;
+    margin-top: 4%;
+    border-radius: 25px;
+    background-color:rgb(247, 245, 223);
+}
+
+/**********************************Footer**************************************/
+
+.footer{
+height: 20%;
+background-color: rgb(247, 245, 223);
+padding: 2%;
+display: flex;
+}
+.right-footer{
+    width: 40%;
+
+    background-color: rgb(173, 226, 254);
+    padding: 2%;
+}
+#location{
+    border-left: 2px solid rgb(0,179,255);
+    border-left-style: dashed;
+    width: 60%;
+  
+    text-align: center;
+    padding: 4%;
+    background-color: rgb(173, 226, 254);
+}
+#location p{
+margin-top: 6%;
+}
+/***********************************************************************COPYRIGHT RESERVED**********************/
+
+.sec-footer{
+padding: 1%;
+height: 3%;
+padding-top: 2%;
+margin-top:2% ;
+display: flex;
+background-color: rgb(247, 245, 223);
+}
+
+.sec-footer p{
+background-color: rgb(173, 226, 254);
+font-size: 1.2em;
+text-align: center;
+width: 70%;
+margin-left:17%;
+}
+
+@media screen and (max-width:1234px){
+body{
+width: 1234px;
+}
+h2{
+text-transform: capitalize;
+}
+/*******************************Navbar*******************/
+.right-nav{
+display: none;
+flex-direction: column;
+width: 100%;
+}
+.right-nav.active{
+    display: flex;
+}
+.toggle-button{
+display: block;
+margin: 2% 6% 2% 2%;
+}
+
+/*******************************************************BANNER***************************/
+.main2 img{
+width: 70%;
+}
+/***************************************************CAREERS***********************************/
+
+.w-div{
+margin: 1%;
+}
+/**************************************************TEAM FEATURES*********************************/
+.sub-box{
+width: 222px;
+}
+.info-2{
+margin: 4%;
+}
+.info-3{
+margin: 4% 0% 5% 0%;
+width: 50%;
+border-radius: 20px;
+}
+.info-3 img{
+width: 100%;
+height: 100%;
+}
+/***********************WE BELIEVE IN LONG TERM PARTNERSHIPS **************************/
+.info-4{
+margin-top: 4%;
+}
+.info-5{
+width: 94%;
+margin-top:10%;
+}
+.info-6{
+width: 94%;
+}
+.info-6 img{
+width: 94%;
+}
+}
+
+
+@media screen and (max-width:768px) and (min-width:654px){
+body{
+width: 77vw;
+ }
+
+ /************************BANNER***********************/
+ .banner{
+flex-direction: column-reverse;
+}
+.main1{
+margin-top: 2%;
+}
+.main1,.main2{
+width: 90%;
+}
+/******************************Careers**************************/
+.w{
+flex-direction: column;
+width: 100%;
+}
+.w-div{
+width: 50%;
+margin:2% 4% 2% 26%;
+}
+/**********************TEAM FEATURES*********************/
+.info-1{
+flex-direction: column-reverse;
+}
+.info-3{
+width: 100%;
+}
+.info-2{
+width: 94%;
+}
+/**********************************************Our Expert Team delivers the best result. **********************/
+.results{
+flex-direction: column;
+}
+/*************************************************WE BELIEVE IN LONG TERM PARTNERSHIPS ***************************/
+.info-4{
+margin-top:20%;
+flex-direction: column-reverse;
+}
+
+/******************************************OUR SERVICES*********************************/
+.main-services{
+flex-direction: column;
+width: 70%;
+margin-left: 12%;
+}
+.ser{
+width: 95%;
+margin: 2%;
+}
+
+/**********************************************AbOUt US*********************************/
+
+.right-about{
+margin-top: 15%;
+margin-bottom: 15%;}
+
+}
